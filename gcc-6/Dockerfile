@@ -5,6 +5,7 @@ RUN apt-get -qq update \
     libboost-all-dev \
     g++ \
     vim \
+    valgrind \
     make \
 && rm -rf /var/lib/apt/lists/*
 
